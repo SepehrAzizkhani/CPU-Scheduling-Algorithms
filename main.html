@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mys.css" />
+    <title>CPU Scheduling Algorithms</title>
+</head>
+
+<body>
+<div style="width: 500px; position: relative;right: -450px">
+    <select id="algorithm" class="select" style="margin-top: 10px; margin-right: 15px; ">
+        <option value="FCFS" class="font-en">FCFS</option>
+        <option value="SJF"class="font-en">SJF</option>
+        <option value="RR"class="font-en">RR</option>
+        <option value="SRT"class="font-en">SRT</option>
+        <option value="MLFQ"class="font-en">MLFQ</option>
+    </select>
+    <label for="algorithm" class="font-en">Choose Your Algorithm </label>
+    <form id="form-container" class="form-container" style="margin-top: 10px;">
+        <input id="nameInput" class="input"  placeholder="Process Name" />
+        <input id="timeInput" class="input font-en" placeholder="Arrival Time" />
+        <input id="serviceInput" class="input font-en" placeholder="Burst Time" />
+        <input id="quantumInput" class="input font-en" placeholder="Time Quantum" style="display: none" />
+        <button id="submitButton" class="btn font-en" type="submit">Add</button>
+        <button id="resetButton" class="btn font-en" type="reset">Delete</button>
+    </form>
+</div>
+    <div id="res" class="data-title my-4 font-en" style="display: none; text-align: center;width: 400px; position: relative;left: -200px;top: -450px"><h3 style="text-align: center">Results</h3></div>
+    <div id="data-container" class="data-container"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

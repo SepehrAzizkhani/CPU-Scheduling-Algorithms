@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="datatables.min">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/vendor/DataTables/datatables.min.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Ubuntu-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Ubuntu-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./Ubuntu-Light.ttf") format("truetype");
+}

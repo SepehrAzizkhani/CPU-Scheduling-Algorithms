@@ -1,0 +1,172 @@
+@import url("/fonts/font.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-fa{
+  font-family: "2  Farnaz";
+  ;
+  direction: rtl;
+}
+
+.font-en{
+  font-family: "ubuntu";
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 50px;
+  display: flex;
+  padding: 20px;
+  min-height: 100px;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  font-family: ubuntu, serif;
+}
+
+.select {
+  margin-top: 100px;
+  border: none;
+  outline: none;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.form-container {
+  min-width: 300px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.input:disabled {
+  background-color: #ebebeb;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 13px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #0ea5e9;
+  transition: 0.3s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0284c7;
+}
+
+.btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.btn:disabled:hover {
+  background-color: #0ea5e9;
+}
+
+.btn[id = "resetButton"]{
+  background-color: #e0233d;
+}
+.btn[id = "resetButton"]:hover{
+  background-color: #B00505D1;
+}
+.data-container {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-title {
+  display: flex;
+}
+.data-title > span {
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+}
+
+.average {
+  margin-top: 50px;
+}
+
+.my-4 {
+  margin: 20px 0px;
+  font-weight: 700;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 65px;
+  height: 65px;
+  border: 1px solid rgba(0, 0, 0, 60%);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-item {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 100%;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+}
+
+.center-item {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.right-item {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 100%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
